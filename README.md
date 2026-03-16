@@ -1,6 +1,6 @@
 # 🚀 Configuración de Entorno Fedora (Laravel + DDEV + Apps)
 
-Este repositorio contiene scripts de automatización para configurar un entorno de desarrollo profesional en Fedora Workstation, optimizado para un equipo con **i7-7700HQ y 16GB de RAM**.
+Este repositorio contiene scripts de automatización para configurar un entorno de desarrollo profesional en Fedora Workstation.
 
 ## 📂 Contenido de los Scripts
 
