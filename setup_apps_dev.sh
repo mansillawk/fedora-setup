@@ -2,9 +2,6 @@
 
 echo "🚀 Iniciando instalación de entorno de desarrollo en Fedora..."
 
-# 1. Actualización del sistema
-sudo dnf upgrade --refresh -y
-
 # 2. Configuración de Repositorios Externos
 echo "📦 Configurando repositorios para VSCode, Sublime Text y DBeaver..."
 
@@ -58,3 +55,8 @@ echo "⚠️  IMPORTANTE: Para que Docker funcione sin sudo, REINICIA el equipo 
 echo "🔑 Tu clave pública SSH para añadir a GitHub/GitLab es:"
 cat ~/.ssh/id_ed25519.pub
 echo "---------------------------------------------------------"
+
+# 7. Actualización final del sistema
+# Esto es útil si hay paquetes nuevos después de repo agregado.
+echo "🔄 Actualizando el sistema al final..."
+sudo dnf upgrade --refresh -y
